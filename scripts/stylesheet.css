@@ -1,16 +1,77 @@
 
-            ol{
-                list-style: none;
+body{ 
+background-color: black;
+              
             }
+p{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: aqua;
+                font-size: 22px;
+            
+            }
+ h1{ 
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 100px;    
+     text-align: center;       
+     color: aqua;
+     background-color: rgb(48, 69, 189);
+     padding:0%;
+     border: 1px solid aqua;
+                
+            }
+h2{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(247, 253, 253);
+    
+        }
+h3{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(48, 69, 189);
+    text-decoration: underline;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
 
-            body{ 
-                color:black;
-                background-color: blueviolet;
-            }
-            h1{
-                color: blue;
-                background-color: lightskyblue;
-               
-            }
+}
 
-      
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a:link{
+    color: rgb(48, 69, 189);
+    
+}
+a:visited{
+    color:grey
+    
+}
+a:hover{
+    color:purple;
+}
+img{
+    border: 1px solid aqua;}
+    
+.good{
+   display: flexbox;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.moon{
+display: flexbox;
+flex-direction: row;
+justify-content: center;
+}
+.boog{
+display: flexbox;
+flex-direction: row;
+justify-content: space-evenly;
+}
