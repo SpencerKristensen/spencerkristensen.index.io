@@ -61,17 +61,17 @@ img{
     border: 1px solid aqua;}
     
 .good{
-   display: flexbox;
+   display: flex;
    flex-direction: row;
    justify-content: space-evenly;
 }
 .moon{
-display: flexbox;
+display: flex;
 flex-direction: row;
 justify-content: center;
 }
 .boog{
-display: flexbox;
+display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 }
