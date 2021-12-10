@@ -58,7 +58,9 @@ a:hover{
     color:purple;
 }
 img{
-    border: 1px solid aqua;}
+    border: 1px solid aqua;
+    
+}
     
 .good{
    display: flex;
